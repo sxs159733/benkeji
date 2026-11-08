@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>本科集 · 江南大学机械工程 2021—2025</title>
+<meta name="description" content="孙旭升的本科四年回忆档案：江南大学机械工程学院机械工程专业 2021—2025，课程、电子课本、竞赛、荣誉与校园光影。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23b54534'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23fff' font-family='serif' font-weight='bold'%3E本%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --site-bg:#f5f0e4;
+  --site-fg:#2b2c30;
+  --site-accent:#2b4c7e;
+  --site-on-accent:#ffffff;
+  --site-surface:#fffdf6;
+  --site-muted:#7c7666;
+  --site-border:#e2dac5;
+  --site-font:"Noto Serif SC","Songti SC","STSong","SimSun",serif;
+  --site-radius:14px;
+  --site-space:1;
+  --site-type:1;
+  --site-motion:1;
+  --seal:#b54534;
+  --gold:#b98a2f;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--site-bg);
+  color:var(--site-fg);
+  font-family:var(--site-font);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:radial-gradient(rgba(43,76,126,.05) 1px,transparent 1px);
+  background-size:26px 26px;
+}
+img{display:block;max-width:100%}
+a{color:var(--site-accent);text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 calc(24px * var(--site-space));position:relative;z-index:1}
+
+/* ---------- nav ---------- */
+nav{
+  position:sticky;top:0;z-index:50;
+  background:color-mix(in srgb,var(--site-bg) 88%,transparent);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--site-border);
+}
+.nav-in{max-width:1120px;margin:0 auto;padding:10px calc(24px * var(--site-space));display:flex;align-items:center;gap:18px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px;color:var(--site-fg)}
+.brand .seal{
+  width:34px;height:34px;border-radius:8px;background:var(--seal);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;
+  box-shadow:2px 2px 0 rgba(181,69,52,.25);letter-spacing:0;
+}
+.nav-links{margin-left:auto;display:flex;gap:4px;flex-wrap:wrap}
+.nav-links a{
+  padding:6px 12px;border-radius:999px;font-size:14px;color:var(--site-muted);
+  transition:background calc(180ms * var(--site-motion)),color calc(180ms * var(--site-motion));
+}
+.nav-links a:hover{background:var(--site-surface);color:var(--site-accent)}
+
+/* ---------- hero ---------- */
+header{padding:calc(64px * var(--site-space)) 0 calc(40px * var(--site-space));text-align:center}
+.kicker{font-size:14px;letter-spacing:.35em;color:var(--site-muted);margin-bottom:14px}
+h1{
+  font-size:calc(64px * var(--site-type));line-height:1.15;font-weight:900;letter-spacing:.08em;
+  color:var(--site-accent);
+}
+.hero-sub{margin-top:14px;font-size:calc(18px * var(--site-type));color:var(--site-muted)}
+.hero-sub strong{color:var(--site-fg)}
+.hero-years{
+  display:inline-flex;align-items:center;gap:14px;margin-top:20px;font-size:15px;color:var(--site-muted);
+}
+.hero-years::before,.hero-years::after{content:"";width:60px;height:1px;background:var(--site-border)}
+
+/* campus card */
+.card-row{display:flex;gap:calc(28px * var(--site-space));align-items:stretch;justify-content:center;margin-top:calc(36px * var(--site-space));flex-wrap:wrap}
+.campus-card{
+  background:var(--site-surface);border:1px solid var(--site-border);border-radius:var(--site-radius);
+  box-shadow:0 10px 30px rgba(43,44,48,.08);
+  padding:22px 26px;display:flex;gap:22px;align-items:center;text-align:left;max-width:520px;
+  position:relative;overflow:hidden;
+}
+.campus-card::after{
+  content:"江南大学";position:absolute;right:-8px;bottom:-14px;font-size:74px;font-weight:900;
+  color:rgba(43,76,126,.05);letter-spacing:.1em;pointer-events:none;
+}
+.cc-monogram{width:104px;height:140px;border-radius:8px;border:1px solid var(--site-border);flex:none;
+  background:linear-gradient(160deg,var(--site-accent),#2b4c7e);color:#f5f1e8;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+.cc-monogram span{font-size:52px;font-weight:900;font-family:"Songti SC","SimSun",serif;line-height:1}
+.cc-monogram small{font-size:10px;letter-spacing:.18em;opacity:.85}
+.cc-fields{display:grid;grid-template-columns:auto 1fr;gap:2px 14px;font-size:14px}
+.cc-fields dt{color:var(--site-muted)}
+.cc-fields dd{font-weight:700}
+.cc-title{grid-column:1/-1;font-size:12px;letter-spacing:.3em;color:var(--site-accent);border-bottom:1px solid var(--site-border);padding-bottom:6px;margin-bottom:6px}
+.stats{
+  display:flex;gap:0;flex-wrap:wrap;justify-content:center;margin-top:calc(32px * var(--site-space));
+  background:var(--site-surface);border:1px solid var(--site-border);border-radius:var(--site-radius);
+  padding:18px 10px;max-width:860px;margin-left:auto;margin-right:auto;
+}
+.stat{flex:1;min-width:120px;padding:6px 14px;text-align:center;border-right:1px dashed var(--site-border)}
+.stat:last-child{border-right:none}
+.stat b{display:block;font-size:calc(30px * var(--site-type));color:var(--site-accent);line-height:1.2}
+.stat span{font-size:13px;color:var(--site-muted)}
+
+/* ---------- sections ---------- */
+section{padding:calc(56px * var(--site-space)) 0}
+.sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:calc(28px * var(--site-space));flex-wrap:wrap}
+.sec-head .no{
+  font-size:13px;color:var(--seal);border:1.5px solid var(--seal);border-radius:6px;padding:2px 8px;
+  font-weight:700;letter-spacing:.15em;transform:rotate(-3deg);
+}
+h2{font-size:calc(32px * var(--site-type));color:var(--site-fg);font-weight:800;letter-spacing:.05em}
+.sec-head p{width:100%;color:var(--site-muted);font-size:15px;margin-top:2px}
+
+/* ---------- timeline ---------- */
+.timeline{position:relative;margin-left:8px;padding-left:30px;border-left:2px solid var(--site-border)}
+.tl-item{position:relative;padding:0 0 calc(28px * var(--site-space)) 8px}
+.tl-item::before{
+  content:"";position:absolute;left:-39px;top:8px;width:14px;height:14px;border-radius:50%;
+  background:var(--site-accent);border:3px solid var(--site-bg);box-shadow:0 0 0 2px var(--site-accent);
+}
+.tl-year{font-size:calc(22px * var(--site-type));font-weight:800;color:var(--site-accent)}
+.tl-item ul{list-style:none;margin-top:6px}
+.tl-item li{padding:3px 0 3px 18px;position:relative;font-size:15px}
+.tl-item li::before{content:"";position:absolute;left:0;top:14px;width:7px;height:7px;border-radius:2px;background:var(--gold)}
+.tl-item li em{font-style:normal;color:var(--site-muted);font-size:13px;margin-left:8px}
+
+/* ---------- bookshelf ---------- */
+.shelf{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:calc(20px * var(--site-space))}
+.book{
+  background:var(--site-surface);border:1px solid var(--site-border);border-radius:var(--site-radius);
+  overflow:hidden;transition:transform calc(180ms * var(--site-motion)),box-shadow calc(180ms * var(--site-motion));
+  display:flex;flex-direction:column;
+}
+.book:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(43,44,48,.12)}
+.book .cover{aspect-ratio:3/4;overflow:hidden;background:#ece5d3;position:relative}
+.book .cover img{width:100%;height:100%;object-fit:cover;transition:transform calc(300ms * var(--site-motion))}
+.book:hover .cover img{transform:scale(1.04)}
+.book .b-info{padding:12px 14px 14px;font-size:14px;flex:1;display:flex;flex-direction:column;gap:2px}
+.book .b-info b{font-size:15px;line-height:1.4}
+.book .b-info span{color:var(--site-muted);font-size:12.5px}
+.book .b-link{margin-top:auto;padding-top:8px;font-size:13px;color:var(--site-accent);font-weight:700}
+.book.unavailable .cover{display:flex;align-items:center;justify-content:center;background:repeating-linear-gradient(45deg,#efe8d6,#efe8d6 12px,#e9e0cb 12px,#e9e0cb 24px)}
+.book.unavailable .cover .spine{
+  writing-mode:vertical-rl;font-size:20px;font-weight:800;color:var(--site-accent);letter-spacing:.2em;
+  max-height:90%;overflow:hidden;
+}
+.badge{
+  display:inline-block;font-size:11px;padding:1px 8px;border-radius:999px;margin-top:6px;width:fit-content;
+  background:rgba(185,138,47,.14);color:var(--gold);border:1px solid rgba(185,138,47,.4);
+}
+.shelf-note{margin-top:16px;font-size:13px;color:var(--site-muted)}
+.book details{width:100%}
+.book summary{cursor:pointer;list-style:none;margin-top:auto;padding-top:8px;font-size:13px;color:var(--site-accent);font-weight:700}
+.book summary::-webkit-details-marker{display:none}
+.book .chapters{display:flex;flex-direction:column;gap:2px;padding-top:6px;font-size:12.5px}
+.book .chapters a{padding:2px 0;border-bottom:1px dashed var(--site-border)}
+.book .chapters a:last-child{border-bottom:none}
+
+/* ---------- courses ---------- */
+.years-grid{display:grid;grid-template-columns:1fr 1fr;gap:calc(20px * var(--site-space))}
+.year-card{background:var(--site-surface);border:1px solid var(--site-border);border-radius:var(--site-radius);padding:20px 22px}
+.year-card h3{font-size:calc(19px * var(--site-type));color:var(--site-accent);margin-bottom:10px;display:flex;align-items:center;gap:10px}
+.year-card h3 span{font-size:12px;color:var(--site-muted);font-weight:400}
+details.semester{border-top:1px dashed var(--site-border)}
+details.semester summary{
+  cursor:pointer;list-style:none;padding:10px 4px;font-size:14.5px;font-weight:700;display:flex;justify-content:space-between;align-items:center;
+  transition:color calc(180ms * var(--site-motion));
+}
+details.semester summary::-webkit-details-marker{display:none}
+details.semester summary:hover{color:var(--site-accent)}
+details.semester summary .cnt{font-size:12px;color:var(--site-muted);font-weight:400}
+details.semester summary::after{content:"＋";color:var(--site-muted);font-size:13px;margin-left:8px}
+details.semester[open] summary::after{content:"－"}
+table.courses{width:100%;border-collapse:collapse;font-size:13px;margin:2px 0 12px}
+table.courses th{color:var(--site-muted);font-weight:400;text-align:left;padding:4px 6px;border-bottom:1px solid var(--site-border);font-size:12px}
+table.courses td{padding:4px 6px;border-bottom:1px dashed color-mix(in srgb,var(--site-border) 60%,transparent)}
+table.courses td:nth-child(2),table.courses td:nth-child(3){white-space:nowrap;color:var(--site-muted)}
+table.courses td.hi{color:var(--seal);font-weight:700}
+.class-moments{display:grid;grid-template-columns:1fr 1fr;gap:calc(20px * var(--site-space));margin-top:calc(24px * var(--site-space))}
+.moment{background:var(--site-surface);border:1px solid var(--site-border);border-radius:var(--site-radius);overflow:hidden}
+.moment img{width:100%;aspect-ratio:16/9;object-fit:cover;cursor:zoom-in}
+.moment figcaption{padding:10px 16px;font-size:13.5px;color:var(--site-muted)}
+.sched-strip{display:flex;gap:12px;overflow-x:auto;padding:14px 2px;margin-top:calc(20px * var(--site-space))}
+.sched-strip figure{flex:0 0 200px;background:var(--site-surface);border:1px solid var(--site-border);border-radius:10px;overflow:hidden}
+.sched-strip img{width:100%;height:130px;object-fit:cover;object-position:top;cursor:zoom-in}
+.sched-strip figcaption{font-size:12px;color:var(--site-muted);padding:6px 10px}
+.grad-project{
+  margin-top:calc(24px * var(--site-space));background:linear-gradient(135deg,var(--site-accent),#1d3a63);
+  color:var(--site-on-accent);border-radius:var(--site-radius);padding:26px 30px;
+}
+.grad-project .tag{font-size:12px;letter-spacing:.3em;opacity:.75}
+.grad-project h3{font-size:calc(22px * var(--site-type));margin:6px 0 8px}
+.grad-project p{font-size:14px;opacity:.9}
+
+/* ---------- competitions ---------- */
+.project-hero{
+  background:var(--site-surface);border:1px solid var(--site-border);border-radius:var(--site-radius);
+  padding:calc(28px * var(--site-space));margin-bottom:calc(24px * var(--site-space));
+}
+.project-hero .ph-top{display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap}
+.project-hero h3{font-size:calc(24px * var(--site-type));color:var(--site-accent)}
+.project-hero .ph-sub{color:var(--site-muted);font-size:14px;margin-top:4px}
+.award-chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.award-chips span{
+  font-size:13px;padding:4px 12px;border-radius:999px;background:rgba(181,69,52,.08);
+  color:var(--seal);border:1px solid rgba(181,69,52,.3);font-weight:700;
+}
+.project-hero .team{font-size:13.5px;color:var(--site-muted)}
+.project-gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
+.project-gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px;cursor:zoom-in;border:1px solid var(--site-border)}
+.comp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:calc(20px * var(--site-space))}
+.comp-card{background:var(--site-surface);border:1px solid var(--site-border);border-radius:var(--site-radius);overflow:hidden;display:flex;flex-direction:column}
+.comp-card .c-img{background:#ece5d3;display:flex;align-items:center;justify-content:center;padding:14px;cursor:zoom-in}
+.comp-card .c-img img{max-height:220px;width:auto;max-width:100%;border-radius:6px;box-shadow:0 4px 14px rgba(43,44,48,.15)}
+.comp-card .c-body{padding:14px 18px 16px}
+.comp-card h4{font-size:16px;color:var(--site-fg)}
+.comp-card .c-body p{font-size:13px;color:var(--site-muted);margin-top:4px}
+.comp-card .c-award{display:inline-block;margin-top:8px;font-size:12.5px;font-weight:700;color:var(--seal)}
+
+/* ---------- honors ---------- */
+.honor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:calc(18px * var(--site-space))}
+.honor{
+  background:var(--site-surface);border:1px solid var(--site-border);border-radius:var(--site-radius);
+  overflow:hidden;transition:transform calc(180ms * var(--site-motion)),box-shadow calc(180ms * var(--site-motion));
+}
+.honor:hover{transform:translateY(-3px);box-shadow:0 10px 22px rgba(43,44,48,.1)}
+.honor .h-img{padding:12px;background:#ece5d3;display:flex;align-items:center;justify-content:center;cursor:zoom-in}
+.honor .h-img img{max-height:170px;width:auto;max-width:100%;border-radius:6px;box-shadow:0 3px 10px rgba(43,44,48,.14)}
+.honor figcaption{padding:10px 14px 12px;font-size:13.5px}
+.honor figcaption b{display:block;font-size:14px}
+.honor figcaption span{color:var(--site-muted);font-size:12.5px}
+.honor.text-card{display:flex;flex-direction:column;justify-content:center;padding:22px 20px;min-height:150px;border-left:4px solid var(--gold)}
+.honor.text-card b{font-size:17px;color:var(--site-accent)}
+.honor.text-card p{font-size:13px;color:var(--site-muted);margin-top:6px}
+
+/* ---------- photo wall ---------- */
+.wall{columns:3;column-gap:calc(18px * var(--site-space))}
+.wall figure{
+  break-inside:avoid;margin-bottom:calc(18px * var(--site-space));background:var(--site-surface);
+  border:1px solid var(--site-border);border-radius:var(--site-radius);overflow:hidden;
+  transition:transform calc(180ms * var(--site-motion)),box-shadow calc(180ms * var(--site-motion));
+}
+.wall figure:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(43,44,48,.12)}
+.wall img{width:100%;cursor:zoom-in}
+.wall figcaption{padding:10px 16px 12px;font-size:13.5px}
+.wall figcaption b{display:block;font-size:14px}
+.wall figcaption span{color:var(--site-muted);font-size:12.5px}
+
+/* ---------- epilogue ---------- */
+.epilogue{
+  background:var(--site-surface);border:1px solid var(--site-border);border-radius:var(--site-radius);
+  padding:calc(40px * var(--site-space));display:flex;gap:calc(32px * var(--site-space));align-items:center;flex-wrap:wrap;
+}
+.epilogue img{width:220px;height:280px;object-fit:cover;border-radius:var(--site-radius);border:1px solid var(--site-border)}
+.epilogue .e-text{flex:1;min-width:260px}
+.epilogue h2{margin-bottom:12px}
+.epilogue p{font-size:15.5px;margin-bottom:10px}
+.epilogue .next{
+  margin-top:14px;padding:14px 18px;border-left:4px solid var(--seal);background:rgba(181,69,52,.05);
+  border-radius:0 10px 10px 0;font-size:15px;
+}
+.epilogue .next b{color:var(--seal)}
+footer{
+  border-top:1px solid var(--site-border);padding:28px 0 40px;text-align:center;color:var(--site-muted);font-size:13px;
+}
+footer .seal-line{display:inline-flex;align-items:center;gap:10px;margin-bottom:6px}
+footer .mini-seal{width:26px;height:26px;border-radius:6px;background:var(--seal);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:700}
+
+/* ---------- lightbox ---------- */
+.lb{
+  position:fixed;inset:0;z-index:100;background:rgba(24,25,30,.92);display:none;
+  align-items:center;justify-content:center;flex-direction:column;padding:30px;
+}
+.lb.open{display:flex}
+.lb img{max-width:92vw;max-height:82vh;border-radius:8px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.lb .lb-cap{color:#d8d4c8;font-size:14px;margin-top:14px;text-align:center}
+.lb button{
+  position:absolute;background:rgba(255,255,255,.12);border:none;color:#fff;width:44px;height:44px;
+  border-radius:50%;font-size:20px;cursor:pointer;transition:background calc(180ms * var(--site-motion));
+}
+.lb button:hover{background:rgba(255,255,255,.28)}
+.lb .lb-close{top:20px;right:20px}
+.lb .lb-prev{left:16px;top:50%;transform:translateY(-50%)}
+.lb .lb-next{right:16px;top:50%;transform:translateY(-50%)}
+
+/* ---------- reveal ---------- */
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+  *{transition-duration:.01ms !important}
+}
+
+/* ---------- responsive ---------- */
+@media (max-width:900px){
+  .years-grid{grid-template-columns:1fr}
+  .comp-grid{grid-template-columns:1fr 1fr}
+  .wall{columns:2}
+  .project-gallery{grid-template-columns:1fr 1fr}
+  h1{font-size:calc(46px * var(--site-type))}
+}
+@media (max-width:600px){
+  .nav-links{display:none}
+  .comp-grid{grid-template-columns:1fr}
+  .wall{columns:1}
+  .class-moments{grid-template-columns:1fr}
+  .campus-card{flex-direction:row;padding:18px}
+  .cc-monogram{width:84px;height:112px}
+  .cc-monogram span{font-size:42px}
+  .stat{min-width:100px}
+  .stat b{font-size:calc(24px * var(--site-type))}
+  .epilogue{padding:26px}
+  .epilogue img{width:100%;height:240px}
+  h2{font-size:calc(26px * var(--site-type))}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-in">
+    <a class="brand" href="#top"><span class="seal">本</span>本科集</a>
+    <div class="nav-links">
+      <a href="#years">四年</a>
+      <a href="#courses">课程与课本</a>
+      <a href="#comp">竞赛</a>
+      <a href="#honors">荣誉</a>
+      <a href="#wall">光影</a>
+      <a href="#epilogue">尾声</a>
+    </div>
+  </div>
+</nav>
+
+<header id="top">
+  <div class="wrap">
+    <div class="kicker">江南大学 · 机械工程学院</div>
+    <h1>本科集</h1>
+    <p class="hero-sub"><strong>孙旭升</strong> · 机械工程 · 机械2104班</p>
+    <div class="hero-years">2021.09 — 2025.06</div>
+
+    <div class="card-row">
+      <div class="campus-card">
+        <div class="cc-monogram" aria-hidden="true"><span>孙</span><small>JNU · 2021</small></div>
+        <dl class="cc-fields">
+          <div class="cc-title">学生档案 · STUDENT RECORD</div>
+          <dt>姓名</dt><dd>孙旭升</dd>
+          <dt>学院</dt><dd>机械工程学院</dd>
+          <dt>专业</dt><dd>机械工程</dd>
+          <dt>班级</dt><dd>机械2104班</dd>
+          <dt>学位</dt><dd>工学学士</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>170</b><span>毕业总学分</span></div>
+      <div class="stat"><b>3.24</b><span>平均学分绩点 / 4.0</span></div>
+      <div class="stat"><b>21</b><span>收录电子课本</span></div>
+      <div class="stat"><b>19</b><span>证书影印</span></div>
+      <div class="stat"><b>26</b><span>光影瞬间</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= 四年 ================= -->
+<section id="years">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="no">壹</span><h2>四年时间线</h2>
+      <p>从蠡湖之滨的军训操场，到毕业典礼的学士服——每一年都有值得记下的事。</p>
+    </div>
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-year">2021 · 入学</div>
+        <ul>
+          <li>九月考入江南大学机械工程学院，成为机械2104班一员<em>军训 · 新生研讨课</em></li>
+          <li>高等数学两学期均考取 93 分，自此与数学结缘<em>后来成为高数课代表、学业辅导员</em></li>
+          <li>所在班级获先进班集体</li>
+        </ul>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-year">2022 · 打底</div>
+        <ul>
+          <li>六月英语四级 572 分，十二月英语六级 508 分<em>一年拿下四六级</em></li>
+          <li>获 2021—2022 学年三等综合奖学金</li>
+          <li>江苏省第十九届高等数学竞赛 本科一级A组 三等奖</li>
+          <li>十月在无锡通扬路爱心屋无偿献血 300ml</li>
+          <li>递交入党申请书</li>
+        </ul>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-year">2023 · 破圈</div>
+        <ul>
+          <li>美国大学生数学建模竞赛 二等奖（Honorable Mention）<em>三人团队，四天三夜</em></li>
+          <li>第十四届全国大学生数学竞赛（非数学类）二等奖</li>
+          <li>剑桥商务英语 BEC 中级（Vantage）</li>
+          <li>获桑麻奖学金二等奖、2022—2023 学年三等综合奖学金</li>
+          <li>无锡马拉松优秀志愿者；校运动会男女混合团队跳绳第一名</li>
+          <li>入党积极分子培训班结业；十一月受聘学业辅导员<em>辅导机械2205班高等数学</em></li>
+        </ul>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-year">2024 · 结果</div>
+        <ul>
+          <li>「粒粒有数」多功能豆类播种机：江苏省机械创新设计大赛二等奖 → 全国总决赛二等奖</li>
+          <li>中国机器人及人工智能大赛：江苏赛区一等奖 → 全国总决赛二等奖（智慧农业）</li>
+          <li>《一种豆类播种机》专利进入登记手续；论文投稿《农机化研究》</li>
+          <li>江苏省大学生核心就业能力培训 优秀学员</li>
+        </ul>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-year">2025 · 启程</div>
+        <ul>
+          <li>毕业设计《面向自动化药房的药物抓取机器人设计》成绩良好</li>
+          <li>六月毕业，获工学学士学位；总学分 170，绩点 3.24</li>
+          <li>九月赴湖南大学人工智能与机器人学院，成为国优计划研究生</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 课程与课本 ================= -->
+<section id="courses">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="no">贰</span><h2>课程与电子课本</h2>
+      <p>八个学期、170 学分的课程档案，以及陪我在图书馆和宿舍里熬过考试周的电子课本。</p>
+    </div>
+
+    <h3 style="font-size:20px;color:var(--site-accent);margin-bottom:16px">书架 · 我的大学课本</h3>
+    <div class="shelf">
+      <div class="book reveal">
+        <a class="cover" href="assets/books/lilun-lixue.pdf" target="_blank" rel="noopener"><img src="assets/covers/cover-lilun.jpg" alt="理论力学封面" loading="lazy"></a>
+        <div class="b-info"><b>理论力学（Ⅱ）· 第8版</b><span>哈工大理论力学教研室</span><a class="b-link" href="assets/books/lilun-lixue.pdf" target="_blank" rel="noopener">阅读 PDF →</a></div>
+      </div>
+      <div class="book reveal">
+        <a class="cover" href="assets/books/shukong-jishu.pdf" target="_blank" rel="noopener"><img src="assets/covers/cover-shukong.jpg" alt="数控技术封面" loading="lazy"></a>
+        <div class="b-info"><b>数控技术</b><span>何雪明</span><a class="b-link" href="assets/books/shukong-jishu.pdf" target="_blank" rel="noopener">阅读 PDF →</a></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><img src="assets/covers/cover-fem.jpg" alt="有限单元法封面" loading="lazy"></div>
+        <div class="b-info"><b>有限单元法</b><span>王勖成</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><img src="assets/covers/cover-modern.jpg" alt="现代机械设计方法封面" loading="lazy"></div>
+        <div class="b-info"><b>现代机械设计方法</b><span>设计方法课程参考</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book reveal">
+        <a class="cover" href="assets/books/dawa-shiyan.pdf" target="_blank" rel="noopener"><img src="assets/covers/cover-physics.jpg" alt="大学物理实验封面" loading="lazy"></a>
+        <div class="b-info"><b>大学物理实验 · 全本</b><span>大物实验课程教材</span><a class="b-link" href="assets/books/dawa-shiyan.pdf" target="_blank" rel="noopener">阅读 PDF →</a></div>
+      </div>
+      <div class="book reveal">
+        <div class="cover"><img src="assets/covers/cover-zhitu.jpg" alt="机械制图讲义封面" loading="lazy"></div>
+        <div class="b-info">
+          <b>机械制图 · 章节讲义</b><span>工程图学 Ⅰ / Ⅱ</span>
+          <details>
+            <summary>展开八章讲义 →</summary>
+            <div class="chapters">
+              <a href="assets/books/zhitu-1.pdf" target="_blank" rel="noopener">第一章 制图基本知识与技能</a>
+              <a href="assets/books/zhitu-2.pdf" target="_blank" rel="noopener">第二章 点、线、面的投影</a>
+              <a href="assets/books/zhitu-3.pdf" target="_blank" rel="noopener">第三章 基本体三视图</a>
+              <a href="assets/books/zhitu-4.pdf" target="_blank" rel="noopener">第四章 立体表面交线</a>
+              <a href="assets/books/zhitu-5.pdf" target="_blank" rel="noopener">第五章 组合体</a>
+              <a href="assets/books/zhitu-6.pdf" target="_blank" rel="noopener">第六章 轴测图</a>
+              <a href="assets/books/zhitu-7.pdf" target="_blank" rel="noopener">第七章 表达方法</a>
+              <a href="assets/books/zhitu-8.pdf" target="_blank" rel="noopener">第八章 标准件和常用件</a>
+            </div>
+          </details>
+        </div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><span class="spine">高等数学·下册</span></div>
+        <div class="b-info"><b>高等数学 · 下册 第七版</b><span>同济大学数学系</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><span class="spine">机械设计</span></div>
+        <div class="b-info"><b>机械设计 · 第十版</b><span>西北工业大学</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><span class="spine">机械制造技术基础</span></div>
+        <div class="b-info"><b>机械制造技术基础 · 第二版</b><span>吉卫喜</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><span class="spine">机电传动控制</span></div>
+        <div class="b-info"><b>机电传动控制 · 第六版</b><span>陈冰 冯清秀 邓星钟</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><span class="spine">机械制造装备设计</span></div>
+        <div class="b-info"><b>机械制造装备设计</b><span>关慧贞</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><span class="spine">单片机初级教程</span></div>
+        <div class="b-info"><b>单片机初级教程</b><span>单片机基础</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><img src="assets/covers/cover-gongchengcailiao.jpg" alt="工程材料与成形工艺基础封面" loading="lazy"></div>
+        <div class="b-info"><b>工程材料与成形工艺基础 · 第2版</b><span>徐晓峰 · 工程材料及成形基础</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><img src="assets/covers/cover-weiji.jpg" alt="微型计算机原理与接口技术封面" loading="lazy"></div>
+        <div class="b-info"><b>微型计算机原理与接口技术 · 第4版</b><span>吴宁 乔亚男 · 微机原理</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><img src="assets/covers/cover-regong.jpg" alt="热工基础封面" loading="lazy"></div>
+        <div class="b-info"><b>热工基础</b><span>童钧耕 赵镇南 · 热工基础课</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><img src="assets/covers/cover-gailv.jpg" alt="概率统计与数据处理封面" loading="lazy"></div>
+        <div class="b-info"><b>概率统计与数据处理 · 第二版</b><span>曹菊生 魏国强 · 概率论与数理统计</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><img src="assets/covers/cover-jiqiren.jpg" alt="机器人学导论封面" loading="lazy"></div>
+        <div class="b-info"><b>机器人学导论 · 原书第4版</b><span>John J. Craig · 机器人概论</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><span class="spine">机械原理</span></div>
+        <div class="b-info"><b>机械原理 · 第九版</b><span>孙桓 葛文杰 · 机械原理课</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><span class="spine">机械控制工程基础</span></div>
+        <div class="b-info"><b>机械控制工程基础 · 第二版</b><span>董玉红 徐莉萍 · 机械工程控制基础</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><span class="spine">生产运作管理</span></div>
+        <div class="b-info"><b>生产运作管理 · 第5版</b><span>陈荣秋 · 生产运作管理课</span><span class="badge">网盘留存</span></div>
+      </div>
+      <div class="book unavailable reveal">
+        <div class="cover"><span class="spine">线性代数及其应用</span></div>
+        <div class="b-info"><b>线性代数及其应用</b><span>线性代数 Ⅰ 课程教材</span><span class="badge">网盘留存</span></div>
+      </div>
+    </div>
+    <p class="shelf-note">注：书架上的封面与版本信息均逐一对照夸克网盘里的真实课本核对；标注「网盘留存」的 17 本教材仍完整保存在网盘中，可随时打开查看，已收录的课本为便于在线翻阅做了清晰度压缩。</p>
+
+    <h3 style="font-size:20px;color:var(--site-accent);margin:36px 0 16px">课程档案 · 八个学期</h3>
+    <div class="years-grid">
+      <div class="year-card reveal">
+        <h3>大一 <span>2021—2022 · 打基础</span></h3>
+        <details class="semester" open>
+          <summary>第一学期 <span class="cnt">11 门</span></summary>
+          <table class="courses">
+            <tr><th>课程</th><th>学分</th><th>成绩</th></tr>
+            <tr><td>高等数学Ⅰ(1)</td><td>6.0</td><td class="hi">93</td></tr>
+            <tr><td>大学英语(基础)</td><td>2.0</td><td>72</td></tr>
+            <tr><td>大学化学</td><td>2.0</td><td>中等</td></tr>
+            <tr><td>思想道德与法治</td><td>3.0</td><td>中等</td></tr>
+            <tr><td>军事理论</td><td>2.0</td><td>良好</td></tr>
+            <tr><td>军事技能</td><td>2.0</td><td>良好</td></tr>
+            <tr><td>基础体育(1)</td><td>1.0</td><td>84</td></tr>
+            <tr><td>计算机文化基础</td><td>1.0</td><td>合格</td></tr>
+            <tr><td>新生研讨课(机械工程)</td><td>1.0</td><td>合格</td></tr>
+            <tr><td>新时代劳动教育</td><td>1.0</td><td>合格</td></tr>
+            <tr><td>形势与政策(1)</td><td>0.5</td><td>良好</td></tr>
+          </table>
+        </details>
+        <details class="semester">
+          <summary>第二学期 <span class="cnt">14 门</span></summary>
+          <table class="courses">
+            <tr><th>课程</th><th>学分</th><th>成绩</th></tr>
+            <tr><td>高等数学Ⅰ(2)</td><td>5.0</td><td class="hi">93</td></tr>
+            <tr><td>大学物理Ⅰ(1)</td><td>4.0</td><td>82</td></tr>
+            <tr><td>大学物理实验(1)</td><td>0.5</td><td>优秀</td></tr>
+            <tr><td>线性代数Ⅰ</td><td>2.5</td><td>64</td></tr>
+            <tr><td>工程图学Ⅰ</td><td>4.0</td><td>81</td></tr>
+            <tr><td>大学英语Ⅰ(3)</td><td>2.0</td><td>81</td></tr>
+            <tr><td>马克思主义基本原理</td><td>3.0</td><td>良好</td></tr>
+            <tr><td>工程实训Ⅰ(金工实习)(1)</td><td>1.5</td><td>良好</td></tr>
+            <tr><td>认识实习</td><td>0.5</td><td>良好</td></tr>
+            <tr><td>基础体育(2)</td><td>1.0</td><td class="hi">97</td></tr>
+            <tr><td>话说微积分</td><td>1.0</td><td>合格</td></tr>
+            <tr><td>心理健康</td><td>0.5</td><td>良好</td></tr>
+            <tr><td>形势与政策(2)</td><td>0.5</td><td>良好</td></tr>
+            <tr><td>职业规划与就业指导(1)</td><td>0.2</td><td>良好</td></tr>
+          </table>
+        </details>
+      </div>
+      <div class="year-card reveal">
+        <h3>大二 <span>2022—2023 · 力学与电</span></h3>
+        <details class="semester">
+          <summary>第一学期 <span class="cnt">13 门</span></summary>
+          <table class="courses">
+            <tr><th>课程</th><th>学分</th><th>成绩</th></tr>
+            <tr><td>理论力学</td><td>4.5</td><td>64</td></tr>
+            <tr><td>电工电子学</td><td>4.0</td><td>77</td></tr>
+            <tr><td>程序设计基础C</td><td>3.0</td><td>中等</td></tr>
+            <tr><td>大学物理Ⅰ(2)</td><td>3.0</td><td>81</td></tr>
+            <tr><td>大学物理实验(2)</td><td>1.0</td><td>良好</td></tr>
+            <tr><td>概率论与数理统计Ⅰ</td><td>2.5</td><td>85</td></tr>
+            <tr><td>工程图学Ⅱ</td><td>2.0</td><td>优秀</td></tr>
+            <tr><td>零部件测绘</td><td>0.5</td><td>良好</td></tr>
+            <tr><td>商务英语听说</td><td>2.0</td><td>84</td></tr>
+            <tr><td>中国近现代史纲要</td><td>3.0</td><td>优秀</td></tr>
+            <tr><td>足球(男子)(1)</td><td>1.0</td><td class="hi">93</td></tr>
+            <tr><td>工程经济学</td><td>1.0</td><td>良好</td></tr>
+            <tr><td>创业人生(MOOC)</td><td>1.0</td><td>合格</td></tr>
+          </table>
+        </details>
+        <details class="semester">
+          <summary>第二学期 <span class="cnt">14 门</span></summary>
+          <table class="courses">
+            <tr><th>课程</th><th>学分</th><th>成绩</th></tr>
+            <tr><td>材料力学</td><td>4.0</td><td>78</td></tr>
+            <tr><td>机械原理</td><td>3.0</td><td>75</td></tr>
+            <tr><td>机械原理课程设计</td><td>0.5</td><td>良好</td></tr>
+            <tr><td>工程材料及成形基础</td><td>3.5</td><td>77</td></tr>
+            <tr><td>互换性原理与技术测量Ⅰ</td><td>2.0</td><td>良好</td></tr>
+            <tr><td>流体力学</td><td>2.0</td><td>80</td></tr>
+            <tr><td>计算方法</td><td>2.0</td><td>优秀</td></tr>
+            <tr><td>电工电子学实验</td><td>0.5</td><td class="hi">92</td></tr>
+            <tr><td>工程实训Ⅰ(金工实习)(2)</td><td>1.0</td><td>优秀</td></tr>
+            <tr><td>大学英语Ⅰ(5)</td><td>2.0</td><td>80</td></tr>
+            <tr><td>毛泽东思想和中国特色社会主义理论体系概论</td><td>3.0</td><td>良好</td></tr>
+            <tr><td>工程伦理</td><td>1.0</td><td>良好</td></tr>
+            <tr><td>足球(男子)(2)</td><td>1.0</td><td class="hi">94</td></tr>
+            <tr><td>羽毛球</td><td>1.0</td><td>合格</td></tr>
+          </table>
+        </details>
+      </div>
+      <div class="year-card reveal">
+        <h3>大三 <span>2023—2024 · 专业核心</span></h3>
+        <details class="semester">
+          <summary>第一学期 <span class="cnt">11 门</span></summary>
+          <table class="courses">
+            <tr><th>课程</th><th>学分</th><th>成绩</th></tr>
+            <tr><td>机械设计</td><td>4.0</td><td>76</td></tr>
+            <tr><td>机械设计课程设计</td><td>1.0</td><td>良好</td></tr>
+            <tr><td>机械制造技术基础</td><td>4.0</td><td>74</td></tr>
+            <tr><td>机械工程控制基础</td><td>2.5</td><td class="hi">94</td></tr>
+            <tr><td>液压与气压传动</td><td>2.0</td><td>85</td></tr>
+            <tr><td>热工基础</td><td>2.0</td><td>73</td></tr>
+            <tr><td>传感与检测技术</td><td>2.0</td><td class="hi">97</td></tr>
+            <tr><td>机械计算机辅助设计与制造原理</td><td>1.5</td><td>优秀</td></tr>
+            <tr><td>创新实践(1)</td><td>0.5</td><td>良好</td></tr>
+            <tr><td>新时代中国特色社会主义思想概论</td><td>3.0</td><td>优秀</td></tr>
+            <tr><td>经典导读与应用文写作(MOOC)</td><td>1.0</td><td>合格</td></tr>
+          </table>
+        </details>
+        <details class="semester">
+          <summary>第二学期 <span class="cnt">14 门</span></summary>
+          <table class="courses">
+            <tr><th>课程</th><th>学分</th><th>成绩</th></tr>
+            <tr><td>机电传动控制</td><td>1.5</td><td>优秀</td></tr>
+            <tr><td>机器人概论</td><td>1.0</td><td>优秀</td></tr>
+            <tr><td>机械制造装备设计</td><td>3.0</td><td>61</td></tr>
+            <tr><td>数控技术Ⅰ</td><td>2.0</td><td>64</td></tr>
+            <tr><td>微机原理</td><td>2.0</td><td>良好</td></tr>
+            <tr><td>现代设计方法</td><td>2.0</td><td>中等</td></tr>
+            <tr><td>有限元技术基础</td><td>2.0</td><td>良好</td></tr>
+            <tr><td>机械学科前沿</td><td>1.0</td><td>合格</td></tr>
+            <tr><td>生产实习</td><td>1.0</td><td>中等</td></tr>
+            <tr><td>制造技术课程设计</td><td>1.0</td><td>良好</td></tr>
+            <tr><td>创新实践(2)</td><td>0.5</td><td>优秀</td></tr>
+            <tr><td>国际组织人才培养创新实践项目</td><td>1.0</td><td>合格</td></tr>
+            <tr><td>健身健美</td><td>1.0</td><td>合格</td></tr>
+            <tr><td>职业规划与就业指导(2)</td><td>0.3</td><td>良好</td></tr>
+          </table>
+        </details>
+      </div>
+      <div class="year-card reveal">
+        <h3>大四 <span>2024—2025 · 设计与毕业</span></h3>
+        <details class="semester">
+          <summary>第一学期 <span class="cnt">6 门</span></summary>
+          <table class="courses">
+            <tr><th>课程</th><th>学分</th><th>成绩</th></tr>
+            <tr><td>机械系统设计</td><td>2.0</td><td>优秀</td></tr>
+            <tr><td>自动机械设计</td><td>2.0</td><td>优秀</td></tr>
+            <tr><td>三维设计软件实践</td><td>2.0</td><td>良好</td></tr>
+            <tr><td>虚拟样机技术</td><td>2.0</td><td>良好</td></tr>
+            <tr><td>生产运作管理</td><td>1.0</td><td>优秀</td></tr>
+            <tr><td>专业课程设计</td><td>1.5</td><td>优秀</td></tr>
+          </table>
+        </details>
+        <details class="semester">
+          <summary>第二学期 <span class="cnt">5 门</span></summary>
+          <table class="courses">
+            <tr><th>课程</th><th>学分</th><th>成绩</th></tr>
+            <tr><td>毕业实习与毕业作业</td><td>8.0</td><td>良好</td></tr>
+            <tr><td>创新创业训练</td><td>2.0</td><td>良好</td></tr>
+            <tr><td>第二课堂</td><td>2.0</td><td>合格</td></tr>
+            <tr><td>乒乓球</td><td>1.0</td><td>合格</td></tr>
+            <tr><td>形势与政策(3)</td><td>1.0</td><td>良好</td></tr>
+          </table>
+        </details>
+      </div>
+    </div>
+
+    <div class="class-moments">
+      <figure class="moment reveal">
+        <img src="assets/photos/p-drawing.jpg" alt="工程制图课" loading="lazy" data-lightbox data-cap="2022.05 工程制图课 · 三视图是机械人的启蒙">
+        <figcaption>2022.05 · 工程制图课，三视图是机械人的启蒙</figcaption>
+      </figure>
+      <figure class="moment reveal">
+        <img src="assets/photos/p-control.jpg" alt="自动控制原理课" loading="lazy" data-lightbox data-cap="2024.10 自动控制原理 · 课堂投影">
+        <figcaption>2024.10 · 自动控制原理，课堂投影</figcaption>
+      </figure>
+    </div>
+
+    <div class="sched-strip reveal">
+      <figure><img src="assets/schedule/s2-1.jpg" alt="大二上课表" loading="lazy" data-lightbox data-cap="大二上学期课表"><figcaption>大二上</figcaption></figure>
+      <figure><img src="assets/schedule/s2-2.jpg" alt="大二下课表" loading="lazy" data-lightbox data-cap="大二下学期课表"><figcaption>大二下</figcaption></figure>
+      <figure><img src="assets/schedule/s3-1.jpg" alt="大三上课表" loading="lazy" data-lightbox data-cap="大三上学期课表"><figcaption>大三上</figcaption></figure>
+      <figure><img src="assets/schedule/s3-2.jpg" alt="大三下课表" loading="lazy" data-lightbox data-cap="大三下学期课表"><figcaption>大三下</figcaption></figure>
+      <figure><img src="assets/schedule/s3-2b.jpg" alt="大三下课表（另一版本）" loading="lazy" data-lightbox data-cap="大三下学期课表（另一版本）"><figcaption>大三下 · 其二</figcaption></figure>
+      <figure><img src="assets/schedule/s4-1.jpg" alt="大四上课表" loading="lazy" data-lightbox data-cap="大四上学期课表"><figcaption>大四上</figcaption></figure>
+      <figure><img src="assets/schedule/s4-1b.jpg" alt="大四上课表（另一版本）" loading="lazy" data-lightbox data-cap="大四上学期课表（另一版本）"><figcaption>大四上 · 其二</figcaption></figure>
+    </div>
+
+    <div class="grad-project reveal">
+      <div class="tag">毕业设计 · 2025</div>
+      <h3>面向自动化药房的药物抓取机器人设计</h3>
+      <p>指导教师：张朝阳 · 成绩：良好 —— 四年机械的最后一课，仍与机器人有关。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 竞赛 ================= -->
+<section id="comp">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="no">叁</span><h2>竞赛与项目</h2>
+      <p>一台播种机的省赛到国赛之路，加上数学建模与数学竞赛的并肩作战。</p>
+    </div>
+
+    <div class="project-hero reveal">
+      <div class="ph-top">
+        <div>
+          <h3>「粒粒有数」· 多功能豆类播种机</h3>
+          <p class="ph-sub">兴农机械 —— 把论文写在大地上，把机器开进田里。</p>
+        </div>
+      </div>
+      <div class="award-chips">
+        <span>江苏省机创大赛 · 二等奖</span>
+        <span>全国机创新设计大赛 · 二等奖</span>
+        <span>机器人及人工智能大赛江苏赛区 · 一等奖</span>
+        <span>机器人及人工智能大赛全国总决赛 · 二等奖</span>
+        <span>发明专利《一种豆类播种机》</span>
+      </div>
+      <p class="team">团队：陈道明 · 龚忠福 · 孙旭升 · 魏晓枫 · 曹聪　｜　指导：周德强 · 卢学玉　｜　2024</p>
+      <div class="project-gallery">
+        <img src="assets/photos/p-yangzhou1.jpg" alt="扬州大学合影" loading="lazy" data-lightbox data-cap="2024.03 扬州大学 · 和队友们">
+        <img src="assets/photos/p-yangzhou2.jpg" alt="扬州大学合影二" loading="lazy" data-lightbox data-cap="2024.03 扬州大学 · 校门前的合影">
+        <img src="assets/photos/p-robot.jpg" alt="机器人调试" loading="lazy" data-lightbox data-cap="2024.06 无锡 · 车间里调试机器">
+        <img src="assets/photos/p-factory.jpg" alt="工厂车间" loading="lazy" data-lightbox data-cap="2024.06 无锡 · 加工车间">
+      </div>
+      <div class="comp-grid" style="margin-top:20px">
+        <div class="comp-card">
+          <div class="c-img"><img src="assets/certs/cert-jichuang-sheng.jpg" alt="江苏省机创大赛二等奖证书" loading="lazy" data-lightbox data-cap="「博西家电杯」第十届江苏省大学生机械创新设计大赛 二等奖"></div>
+          <div class="c-body"><h4>江苏省机械创新设计大赛</h4><p>第十届 ·「博西家电杯」· 2024</p><span class="c-award">二等奖</span></div>
+        </div>
+        <div class="comp-card">
+          <div class="c-img"><img src="assets/certs/cert-jichuang-guo.jpg" alt="全国机创大赛二等奖证书" loading="lazy" data-lightbox data-cap="「华中数控杯」第十一届全国大学生机械创新设计大赛决赛 二等奖 · 2024.07"></div>
+          <div class="c-body"><h4>全国大学生机械创新设计大赛</h4><p>第十一届 ·「华中数控杯」决赛 · 2024.07</p><span class="c-award">全国二等奖</span></div>
+        </div>
+        <div class="comp-card">
+          <div class="c-img"><img src="assets/certs/cert-zhuanli.jpg" alt="专利登记通知书" loading="lazy" data-lightbox data-cap="《一种豆类播种机》发明专利办理登记手续通知书 · 2024"></div>
+          <div class="c-body"><h4>发明专利</h4><p>《一种豆类播种机》办理登记手续 · 2024</p><span class="c-award">专利申请</span></div>
+        </div>
+        <div class="comp-card">
+          <div class="c-img"><img src="assets/certs/cert-renzhi-sheng.jpg" alt="人智大赛江苏赛区一等奖" loading="lazy" data-lightbox data-cap="第二十六届中国机器人及人工智能大赛 江苏赛区 一等奖 · 2024"></div>
+          <div class="c-body"><h4>中国机器人及人工智能大赛</h4><p>第二十六届 · 江苏赛区 · 2024</p><span class="c-award">赛区一等奖</span></div>
+        </div>
+        <div class="comp-card">
+          <div class="c-img"><img src="assets/certs/cert-renzhi-guo.jpg" alt="人智大赛全国二等奖" loading="lazy" data-cap="第二十六届中国机器人及人工智能大赛全国总决赛 机器人应用赛（智慧农业）二等奖" loading="lazy" data-lightbox></div>
+          <div class="c-body"><h4>机器人应用赛 · 智慧农业</h4><p>第二十六届全国总决赛 · 2024</p><span class="c-award">全国二等奖</span></div>
+        </div>
+        <div class="comp-card">
+          <div class="c-img"><img src="assets/certs/cert-meisai.jpg" alt="美赛二等奖证书" loading="lazy" data-lightbox data-cap="2023 Mathematical Contest in Modeling · Honorable Mention"></div>
+          <div class="c-body"><h4>美国大学生数学建模竞赛</h4><p>2023 MCM · 三人团队四天三夜</p><span class="c-award">Honorable Mention</span></div>
+        </div>
+        <div class="comp-card">
+          <div class="c-img"><img src="assets/certs/cert-shuxue-guo.jpg" alt="全国数学竞赛二等奖" loading="lazy" data-lightbox data-cap="第十四届全国大学生数学竞赛（非数学类）二等奖"></div>
+          <div class="c-body"><h4>全国大学生数学竞赛</h4><p>第十四届 · 非数学类</p><span class="c-award">二等奖</span></div>
+        </div>
+        <div class="comp-card">
+          <div class="c-img"><img src="assets/certs/cert-gaoshu-sheng.jpg" alt="江苏省高数竞赛三等奖" loading="lazy" data-lightbox data-cap="江苏省第十九届高等数学竞赛 本科一级A组 三等奖"></div>
+          <div class="c-body"><h4>江苏省高等数学竞赛</h4><p>第十九届 · 本科一级A组</p><span class="c-award">三等奖</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 荣誉 ================= -->
+<section id="honors">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="no">肆</span><h2>荣誉与奖学金</h2>
+      <p>证书会褪色，但拿到它们时的心情不会。点击可放大查看。</p>
+    </div>
+    <div class="honor-grid">
+      <figure class="honor reveal">
+        <div class="h-img"><img src="assets/certs/cert-jiangxue-2021.jpg" alt="2021-2022三等综合奖学金" loading="lazy" data-lightbox data-cap="三等综合奖学金 · 2021—2022学年"></div>
+        <figcaption><b>三等综合奖学金</b><span>2021—2022 学年</span></figcaption>
+      </figure>
+      <figure class="honor reveal">
+        <div class="h-img"><img src="assets/certs/cert-jiangxue-2022.jpg" alt="2022-2023三等综合奖学金" loading="lazy" data-lightbox data-cap="三等综合奖学金 · 2022—2023学年"></div>
+        <figcaption><b>三等综合奖学金</b><span>2022—2023 学年 · 连续两年</span></figcaption>
+      </figure>
+      <div class="honor text-card reveal">
+        <b>桑麻奖学金 · 二等奖</b>
+        <p>2023 年桑麻奖学金获奖学生汇总表（机械工程学院）载明：孙旭升，机械工程，二等奖。</p>
+      </div>
+      <div class="honor text-card reveal">
+        <b>国家助学金</b>
+        <p>求学路上的一份托底，也是一份鞭策。</p>
+      </div>
+      <figure class="honor reveal">
+        <div class="h-img"><img src="assets/certs/cert-cet4.jpg" alt="英语四级572分" loading="lazy" data-lightbox data-cap="CET-4 · 572分 · 2022年6月"></div>
+        <figcaption><b>CET-4 · 572</b><span>2022.06</span></figcaption>
+      </figure>
+      <figure class="honor reveal">
+        <div class="h-img"><img src="assets/certs/cert-cet6.jpg" alt="英语六级508分" loading="lazy" data-lightbox data-cap="CET-6 · 508分 · 2022年12月"></div>
+        <figcaption><b>CET-6 · 508</b><span>2022.12</span></figcaption>
+      </figure>
+      <figure class="honor reveal">
+        <div class="h-img"><img src="assets/certs/cert-bec.jpg" alt="BEC中级证书" loading="lazy" data-lightbox data-cap="剑桥商务英语 BEC Vantage（中级）· 2023"></div>
+        <figcaption><b>BEC Vantage 中级</b><span>剑桥商务英语 · 2023</span></figcaption>
+      </figure>
+      <figure class="honor reveal">
+        <div class="h-img"><img src="assets/certs/cert-fudaoyuan.jpg" alt="学业辅导员聘书" loading="lazy" data-lightbox data-cap="学业辅导员聘书 · 2023—2024学年 · 辅导机械2205班高等数学，考核优秀"></div>
+        <figcaption><b>学业辅导员</b><span>2023—2024 · 辅导机械2205班高数，考核优秀</span></figcaption>
+      </figure>
+      <div class="honor text-card reveal">
+        <b>优秀课代表</b>
+        <p>高等数学课代表——从自己考 93 分，到带着学弟学妹们一起学。</p>
+      </div>
+      <figure class="honor reveal">
+        <div class="h-img"><img src="assets/certs/cert-volunteer.jpg" alt="无锡马拉松优秀志愿者" loading="lazy" data-lightbox data-cap="2023 COLMO 无锡马拉松 优秀志愿者"></div>
+        <figcaption><b>无锡马拉松优秀志愿者</b><span>2023.05</span></figcaption>
+      </figure>
+      <figure class="honor reveal">
+        <div class="h-img"><img src="assets/certs/cert-tiaosheng.jpg" alt="运动会跳绳第一名" loading="lazy" data-lightbox data-cap="江南大学第二十二届运动会 男女混合学生组团队跳绳 第一名（76.0个）· 2023.04"></div>
+        <figcaption><b>校运动会 · 团队跳绳第一名</b><span>第二十二届运动会 · 2023.04</span></figcaption>
+      </figure>
+      <figure class="honor reveal">
+        <div class="h-img"><img src="assets/certs/cert-dangxiao.jpg" alt="入党积极分子培训班结业" loading="lazy" data-lightbox data-cap="机械工程学院分党校 入党积极分子培训班 结业 · 2023"></div>
+        <figcaption><b>入党积极分子培训班结业</b><span>机械工程学院分党校 · 2023</span></figcaption>
+      </figure>
+      <figure class="honor reveal">
+        <div class="h-img"><img src="assets/certs/cert-jiuye.jpg" alt="核心就业能力培训优秀学员" loading="lazy" data-lightbox data-cap="江苏省大学生核心就业能力培训 优秀学员 · 2024"></div>
+        <figcaption><b>核心就业能力培训 · 优秀学员</b><span>江苏省 · 2024</span></figcaption>
+      </figure>
+      <figure class="honor reveal">
+        <div class="h-img"><img src="assets/certs/cert-xianxue.jpg" alt="无偿献血证" loading="lazy" data-lightbox data-cap="无偿献血 300ml · 2022.10 无锡通扬路爱心屋"></div>
+        <figcaption><b>无偿献血 300ml</b><span>2022.10 · 无锡通扬路爱心屋</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 光影 ================= -->
+<section id="wall">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="no">伍</span><h2>校园光影</h2>
+      <p>课堂之外：聚餐、夜跑、KTV、樱花、训练馆，和最后那一场毕业。</p>
+    </div>
+    <div class="wall">
+      <figure class="reveal"><img src="assets/photos/p-hengyang.jpg" alt="衡阳同学聚餐" loading="lazy" data-lightbox data-cap="2022.01 衡阳 · 寒假老同学聚餐"><figcaption><b>衡阳 · 同学聚餐</b><span>2022.01 寒假</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-20220625a.jpg" alt="无锡好友合影" loading="lazy" data-lightbox data-cap="2022.06 无锡 · 好友小聚"><figcaption><b>无锡 · 好友小聚</b><span>2022.06</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-20220625b.jpg" alt="无锡好友合影二" loading="lazy" data-lightbox data-cap="2022.06 无锡 · 沙发上的剪刀手"><figcaption><b>无锡 · 剪刀手</b><span>2022.06</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-20220705a.jpg" alt="夏日合影" loading="lazy" data-lightbox data-cap="2022.07 无锡 · 夏日合影"><figcaption><b>无锡 · 夏日合影</b><span>2022.07</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-20220705b.jpg" alt="夏日合影二" loading="lazy" data-lightbox data-cap="2022.07 无锡 · 棕榈树下的夏天"><figcaption><b>棕榈树下的夏天</b><span>2022.07</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-run.jpg" alt="跑步奖牌" loading="lazy" data-lightbox data-cap="2022.11 无锡 · 跑完步，领一块奖牌"><figcaption><b>跑完步的奖牌</b><span>2022.11</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-ktv.jpg" alt="KTV之夜" loading="lazy" data-lightbox data-cap="2024.01 无锡 · KTV 之夜"><figcaption><b>KTV 之夜</b><span>2024.01</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-20240126.jpg" alt="冬夜合影" loading="lazy" data-lightbox data-cap="2024.01 无锡 · 冬夜里的合影"><figcaption><b>冬夜合影</b><span>2024.01</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-ecobottle.jpg" alt="生态瓶" loading="lazy" data-lightbox data-cap="2024.05 无锡 · 亲手做的生态瓶，放在湖边"><figcaption><b>一只生态瓶</b><span>2024.05 · 亲手制作</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-workshop.jpg" alt="车间实习" loading="lazy" data-lightbox data-cap="2024.06 无锡 · 生产实习，走进车间"><figcaption><b>生产实习 · 车间</b><span>2024.06</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-sakura1.jpg" alt="樱花楼阁" loading="lazy" data-lightbox data-cap="2025.03 无锡 · 樱花树下的楼阁与许愿签"><figcaption><b>樱花楼阁</b><span>2025.03</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-sakura2.jpg" alt="樱花湖合影" loading="lazy" data-lightbox data-cap="2025.03 无锡 · 樱花湖边的合影"><figcaption><b>樱花湖边</b><span>2025.03</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-sakura3.jpg" alt="樱花湖表演" loading="lazy" data-lightbox data-cap="2025.03 无锡 · 樱花季，湖边的演出"><figcaption><b>樱花季的演出</b><span>2025.03</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-training.jpg" alt="训练馆" loading="lazy" data-lightbox data-cap="2025.04 无锡 · 训练馆里摔打"><figcaption><b>训练馆</b><span>2025.04</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-grad.jpg" alt="毕业照" loading="lazy" data-lightbox data-cap="2025.06 无锡 · 毕业照，坐满一整片广场"><figcaption><b>毕业照</b><span>2025.06.04</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-grad-a.jpg" alt="毕业季合影" loading="lazy" data-lightbox data-cap="2025.06 无锡 · 毕业季，和老友"><figcaption><b>毕业季 · 老友</b><span>2025.06.14</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-grad-b.jpg" alt="毕业季合影二" loading="lazy" data-lightbox data-cap="2025.06 无锡 · 毕业季的最后一晚"><figcaption><b>毕业季 · 最后一晚</b><span>2025.06.14</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-gown.jpg" alt="学士服" loading="lazy" data-lightbox data-cap="2025.06 无锡 · 穿上学士服"><figcaption><b>学士服</b><span>2025.06.21</span></figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/p-life.jpg" alt="宿舍生活照" loading="lazy" data-lightbox data-cap="宿舍里 · 一张生活照"><figcaption><b>宿舍 · 生活照</b><span>那件粉色外套</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 尾声 ================= -->
+<section id="epilogue">
+  <div class="wrap">
+    <div class="epilogue reveal">
+      <img src="assets/photos/p-gown.jpg" alt="学士服照片" loading="lazy">
+      <div class="e-text">
+        <h2>尾声 · 从蠡湖到岳麓山</h2>
+        <p>2025 年 6 月，穿上学士服，和四年里所有的教室、车间、樱花与朋友道别。成绩单定格在 170 学分、3.24 绩点，而本科集里收着的，远不止这些。</p>
+        <div class="next">
+          <b>下一站：</b>2025 年 9 月，湖南大学人工智能与机器人学院 · 国优计划研究生。从机械到人工智能与机器人，故事还在继续。
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="seal-line"><span class="mini-seal">本</span><span>本科集 · 2021—2025</span></div>
+    <p>江南大学机械工程学院 · 机械工程 · 机械2104班 —— 私人回忆档案，仅自己可见。</p>
+  </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="图片查看器">
+  <button class="lb-close" aria-label="关闭">✕</button>
+  <button class="lb-prev" aria-label="上一张">‹</button>
+  <img alt="">
+  <div class="lb-cap"></div>
+  <button class="lb-next" aria-label="下一张">›</button>
+</div>
+
+<script>
+(function(){
+  // scroll reveal
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+  // lightbox
+  var lb = document.getElementById('lb');
+  var lbImg = lb.querySelector('img');
+  var lbCap = lb.querySelector('.lb-cap');
+  var items = Array.prototype.slice.call(document.querySelectorAll('[data-lightbox]'));
+  var idx = 0;
+  function show(i){
+    idx = (i + items.length) % items.length;
+    var el = items[idx];
+    lbImg.src = el.src;
+    lbImg.alt = el.alt || '';
+    lbCap.textContent = el.getAttribute('data-cap') || el.alt || '';
+  }
+  items.forEach(function(el, i){
+    el.addEventListener('click', function(){ show(i); lb.classList.add('open'); document.body.style.overflow = 'hidden'; });
+  });
+  function close(){ lb.classList.remove('open'); document.body.style.overflow = ''; }
+  lb.querySelector('.lb-close').addEventListener('click', close);
+  lb.querySelector('.lb-prev').addEventListener('click', function(e){ e.stopPropagation(); show(idx - 1); });
+  lb.querySelector('.lb-next').addEventListener('click', function(e){ e.stopPropagation(); show(idx + 1); });
+  lb.addEventListener('click', function(e){ if(e.target === lb) close(); });
+  document.addEventListener('keydown', function(e){
+    if(!lb.classList.contains('open')) return;
+    if(e.key === 'Escape') close();
+    if(e.key === 'ArrowLeft') show(idx - 1);
+    if(e.key === 'ArrowRight') show(idx + 1);
+  });
+})();
+</script>
+</body>
+</html>
